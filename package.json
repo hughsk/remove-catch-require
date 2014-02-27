@@ -1,0 +1,37 @@
+{
+  "name": "remove-catch-require",
+  "description": "Transform stream to remove require calls from inside a catch{} statement",
+  "version": "0.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "ast-parents": "0.0.1",
+    "ast-transform": "0.0.0",
+    "replace-method": "0.0.0"
+  },
+  "devDependencies": {
+    "bl": "~0.7.0",
+    "tape": "~2.5.0",
+    "detective": "~2.4.0"
+  },
+  "scripts": {
+    "test": "node test"
+  },
+  "author": "Hugh Kennedy <hughskennedy@gmail.com> (http://hughsk.io/)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/remove-catch-require"
+  },
+  "bugs": {
+    "url": "https://github.com/hughsk/remove-catch-require/issues"
+  },
+  "homepage": "https://github.com/hughsk/remove-catch-require",
+  "keywords": [
+    "remove",
+    "catch",
+    "statement",
+    "compatability",
+    "browserify",
+    "transform"
+  ]
+}
